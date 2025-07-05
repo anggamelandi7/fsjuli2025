@@ -61,34 +61,41 @@ Selesai
  */
 
 /**
- *  STUDY CASE 4
+ *  STUDY CASE 5
  * 
- * Tentukan algoritma dan pseudecode luas permukaan tabung
+ * Tentukan algoritma dan pseudecode luas permukaan balok
+ * 
  * algoritma = 
  * 
-Mulai
+MMulai
 
-Masukkan jari-jari (r)
+Masukkan nilai panjang (p)
 
-Masukkan tinggi (t)
+Masukkan nilai lebar (l)
 
-Hitung luas = 2 × π × r × (r + t)
+Masukkan nilai tinggi (t)
+
+Hitung luas = 2 × (p × l + p × t + l × t)
 
 Tampilkan hasil luas
 
 Selesai
 
+
  * Pseudoceode = 
  Mulai
-  Tampilkan "Masukkan jari-jari tabung:"
-  Baca r
+  Tampilkan "Masukkan panjang balok:"
+  Baca p
 
-  Tampilkan "Masukkan tinggi tabung:"
+  Tampilkan "Masukkan lebar balok:"
+  Baca l
+
+  Tampilkan "Masukkan tinggi balok:"
   Baca t
 
-  luas ← 2 × 3.14 × r × (r + t)
+  luas ← 2 × (p × l + p × t + l × t)
 
-  Tampilkan "Luas permukaan tabung adalah:", luas
+  Tampilkan "Luas permukaan balok adalah:", luas
 Selesai
  */
 
