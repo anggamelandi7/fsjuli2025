@@ -1,7 +1,5 @@
-// algoritma
-
 /**
- *  Study case 1
+ *  STUDY CASE 1
  * 
  * Tentukan algoritma dan pseudecode untuk menghitung luas persegi panjang
  * 
@@ -34,8 +32,9 @@ Selesai
  */
 
 
+
 /**
- *  Study case 2
+ *  STUDY CASE 2
  * 
  * Tentukan algoritma dan pseudecode untuk menghitung luas lingkaran
  * algoritma = 
@@ -60,4 +59,38 @@ Mulai
   Tampilkan "Luas lingkaran adalah:", luas
 Selesai
  */
+
+/**
+ *  STUDY CASE 4
+ * 
+ * Tentukan algoritma dan pseudecode luas permukaan tabung
+ * algoritma = 
+ * 
+Mulai
+
+Masukkan jari-jari (r)
+
+Masukkan tinggi (t)
+
+Hitung luas = 2 × π × r × (r + t)
+
+Tampilkan hasil luas
+
+Selesai
+
+ * Pseudoceode = 
+ Mulai
+  Tampilkan "Masukkan jari-jari tabung:"
+  Baca r
+
+  Tampilkan "Masukkan tinggi tabung:"
+  Baca t
+
+  luas ← 2 × 3.14 × r × (r + t)
+
+  Tampilkan "Luas permukaan tabung adalah:", luas
+Selesai
+ */
+
+
 
