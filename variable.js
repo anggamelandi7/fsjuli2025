@@ -1,4 +1,3 @@
-
 // volume kubu
 
 // var sisi = 5;
@@ -6,21 +5,18 @@
 // console.log(volume);
 // ===================
 
-
-
 //luas lingkaran
 // let r = 5;
 // const pi = 3.14;
 // let luas = pi * r * r;
 // console.log(luas);
 
-
 //=============================================================//
 
 /**
- * STUDY CASE 1 
+ * STUDY CASE 1
  * Tentukan algoritma dan Psedocode dan Coding untuk menghitung Luas Permukaan Balok
- * 
+ *
  * Algoritma :
  * 1. masukkan nilai panjang  (p)
  * 2. masukkan nilai lebar (l)
@@ -28,7 +24,7 @@
  * 4. Hitung Luas = 2 x(p x l + p x t + l x t)
  * 5. Tampilan hasil luas
  * 6. Selesai
- * 
+ *
  * Psedeucode
  * Mulai
  * Tampilkan "Masukkan panjang balok:" Baca p
@@ -46,11 +42,10 @@
 // let luaspermukaanbalok = 2 * (p *l + p * t + l);
 // console.log(luaspermukaanbalok);
 
-
 /**
- * STUDY CASE 2 
+ * STUDY CASE 2
  * Tentukan algoritma dan Psedocode dan Coding untuk menghitung massa jenis
- * 
+ *
  * Algoritma :
  * 1. buat variable massa
  * 2. buat variable volume
@@ -58,7 +53,7 @@
  * 4. Hitung rho
  * 5. Rumus Massa Jenis = massa /volume
  * 6. Tampilkan rho
- * 
+ *
  * Psedeucode
  * BEGIN
  * STORE massa WITH ANY NUMBER
@@ -72,15 +67,13 @@
 // let massa = 10;
 // let volume = 3;
 
-
 // let rho = massa / volume
 // console.log(rho.toFixed(2)); // to fix untuk membatasi angka dibelakang koma
-
 
 /**
  * STUDY CASE 3
  * Tentukan algoritma dan Psedocode dan Coding untuk menghitung volume tabung
- * 
+ *
  * Algoritma :
  * 1. buat variable r
  * 2. buat variable t
@@ -88,14 +81,14 @@
  * 4. hitung variable tabung
  * 5. rumus volume tabung = phi * r * r* t
  * 6. tampilkan volume tabung
- * 
+ *
  * Psedeucode
  * BEGIN
  * STORE phi with 3.14
  * STORE with any number
  * STORE t with any number
- * 
- * set volume to phi mul r mul r mul 
+ *
+ * set volume to phi mul r mul r mul
  * print volume
  * End
  */
@@ -105,9 +98,5 @@
 // let r = 7;
 // let t = 5;
 
-
-// let volume = phi * r * r* t
+// let volume = phi * r * r * t;
 // console.log(volume.toFixed(2));
-
-
-
