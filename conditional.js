@@ -294,30 +294,6 @@ PSEUDOCODE
 //         break;
 // }
 
-/**
- * * STUDY CASE 5
- * 
- * *Sebuah lembaga layanan IT Services yang bergerak di bidang perbaikan laptop dan gadget memberikan layanan khusus berdasarkan dari status pembeli.
- * 
- * Pembeli merupakan penduduk WNA, dan memiliki ketentuan berikut:
- * Lama tinggal di indonesia 3 tahun kurang, maka tidak dapat diskon.
- * Lama tinggal di indonesia 3 tahun hingga 5 tahun, maka dapat diskon. Jika memiliki syarat :
- *      usia dibawah 21 tahun, makka diskon 10%
- *      usia dibawah 21 tahun, makka diskon 10%
- * lama tinggal di indonesia diatas 5 tahun. jika memliki syarat :
- *      usia di bawah 21 tahun, makan diskon 5%
- *      usia di atas 21 tahun, maka diskon 2.5%
- * Pembeli merupakan penduduk WNI, dan memliki ketentuan berikut:
- *      WNI tinggal di daerah Barat Indonesia, mendapatkan diskon 10%
- *      WNI tinggal di daerah Tengah Indonesia, mendapatkan diskon 15%
- *      WNI tinggal di daerah Tengah Indonesia, mendapatkan diskon 17%
- * 
- * contoh perhitungan:
- * Warga merupakan WNA, lama tinggal 3 tahun dan umur 27 tahun, total pembelian : Rp.100.000
- * maka mendapatkan diskon 5%, sehingga total yang dibayar adalah Rp.95.000
- * 
- */
-
 
 /**
  *  * Study Case 5

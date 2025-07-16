@@ -1,3 +1,5 @@
+
+// ================================
 // VARIABEL
 // ================================
 
@@ -55,6 +57,10 @@
 // console.log("sama dengan 100?", nilai === 100);
 // console.log("antara 80 dan 90?", nilai >= 80 && nilai <= 90);
 
+// =======================================
+// if...ELSE
+// =======================================
+
 // let usia = 20;
 
 // if (usia >= 17) {
@@ -87,3 +93,110 @@
 //     console.log("Nilai D (Tidak Lulus)");
     
 // }
+
+
+// =====================================
+// SWITCH //
+// =====================================
+
+// let hari = "senin";
+
+// switch (hari) {
+//     case "senin":
+//         console.log("Hari Kerja");
+//         break;
+//     case "Sabtu":
+//     case "Minggu":
+//         console.log("Hari Libur");
+//         break;
+//     default:
+//             console.log("Hari tidak valid");
+// }
+            
+// =====================================================
+
+// let nilaiHuruf = "B";
+
+// switch (nilaiHuruf) {
+//     case "A":
+//         console.log("sangat baik");
+//         break;
+//     case "B":
+//         console.log("baik");
+//         break;
+//     case "C":
+//         console.log("cukup");
+//         break;
+//     case "D":
+//         console.log("kurang");
+//         break;
+//     default:
+//         console.log("nilai tidak valid");
+//         break;
+// }
+
+// let minuman = "sweet tea";
+
+// switch (minuman) {
+//     case "sweet tea":
+//         console.log("you choose sweet tea,thanks");
+//         break;
+//     case "plain tea":
+//         console.log("you choose plain tea,thanks");
+//         break;
+//     case "boba":
+//         console.log("you choose boba,thanks");
+//         break;
+//     case "milk coffe":
+//         console.log("you choose milk coffe,thanks");
+//         break;
+//     case "choco ice":
+//         console.log("you choose choco ice,thanks");
+//         break;
+//     default:
+//         break;
+// }
+
+let access = " ";
+let level = 5;
+
+switch (access) {
+    case "public":
+        if (level < 5) {
+            console.log(access + "dibawah 5");
+        } else if(level > 5) {
+            console.log(access + "di atas 5");
+        } else
+            {
+            console.log(access + "five" );  
+        }
+        break;
+    case "private":
+        if (level < 5) {
+            console.log(access + "dibawah 5");
+        } else if(level > 5) {
+            console.log(access + "di atas 5");
+        } else
+            {
+            console.log(access + "five" );  
+        }
+        break;
+    case "protected":
+        if (level < 5) {
+            console.log(access + "dibawah 5");
+        } else if(level > 5) {
+            console.log(access + "di atas 5");
+        } else
+            {
+            console.log(access + "five" );  
+        }
+        break;
+    default:
+        if (access === " ") {
+            console.log("input access");
+        } else {
+            console.log("access is not defined");
+         
+        }
+        break;
+}
