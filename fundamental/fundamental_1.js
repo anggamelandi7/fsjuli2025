@@ -157,46 +157,46 @@
 //         break;
 // }
 
-let access = " ";
-let level = 5;
+// let access = " ";
+// let level = 5;
 
-switch (access) {
-    case "public":
-        if (level < 5) {
-            console.log(access + "dibawah 5");
-        } else if(level > 5) {
-            console.log(access + "di atas 5");
-        } else
-            {
-            console.log(access + "five" );  
-        }
-        break;
-    case "private":
-        if (level < 5) {
-            console.log(access + "dibawah 5");
-        } else if(level > 5) {
-            console.log(access + "di atas 5");
-        } else
-            {
-            console.log(access + "five" );  
-        }
-        break;
-    case "protected":
-        if (level < 5) {
-            console.log(access + "dibawah 5");
-        } else if(level > 5) {
-            console.log(access + "di atas 5");
-        } else
-            {
-            console.log(access + "five" );  
-        }
-        break;
-    default:
-        if (access === " ") {
-            console.log("input access");
-        } else {
-            console.log("access is not defined");
+// switch (access) {
+//     case "public":
+//         if (level < 5) {
+//             console.log(access + "dibawah 5");
+//         } else if(level > 5) {
+//             console.log(access + "di atas 5");
+//         } else
+//             {
+//             console.log(access + "five" );  
+//         }
+//         break;
+//     case "private":
+//         if (level < 5) {
+//             console.log(access + "dibawah 5");
+//         } else if(level > 5) {
+//             console.log(access + "di atas 5");
+//         } else
+//             {
+//             console.log(access + "five" );  
+//         }
+//         break;
+//     case "protected":
+//         if (level < 5) {
+//             console.log(access + "dibawah 5");
+//         } else if(level > 5) {
+//             console.log(access + "di atas 5");
+//         } else
+//             {
+//             console.log(access + "five" );  
+//         }
+//         break;
+//     default:
+//         if (access === " ") {
+//             console.log("input access");
+//         } else {
+//             console.log("access is not defined");
          
-        }
-        break;
-}
+//         }
+//         break;
+// }
